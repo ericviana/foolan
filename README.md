@@ -1,4 +1,4 @@
-## 🚀 Template de Portfólio para Profissionais de Tecnologia
+# 🚀 Template de Portfólio para Profissionais de Tecnologia
 
 Bem-vindo ao 🌟 Template de Portfólio para Profissionais de Tecnologia! Este template versátil foi desenvolvido para ajudar você a exibir suas habilidades, projetos e experiência de forma visualmente atrativa e fácil de usar.
 
