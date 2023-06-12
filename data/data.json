@@ -26,7 +26,7 @@
   "contatos": [
     {
       "nome": "Email",
-      "link": "",
+      "link": "mailto:ericvsdefault@gmail.com",
       "descricao": "seu@email.com"
     },
     {
@@ -36,7 +36,7 @@
     },
     {
       "nome": "Twitter",
-      "link": "https://github.com/ericviana",
+      "link": "https://twitter.com/ericvna",
       "descricao": "twitter.com/seutwitter"
     }
   ]
