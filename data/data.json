@@ -1,0 +1,43 @@
+{
+  "nome": "Foolan / D'tal",
+  "sobre": "Oi, meu nome é ${nome} e eu sou um(a) ${profissao}. Eu moro em ${cidade}, ${estado}, ${país} e tenho ${tempo} anos de experiência com ${especialidade}.",
+  "projetos": [
+    {
+      "nome": "Nome do seu projeto",
+      "descricao": "Descrição breve do seu projeto",
+      "link": "https://fros.dev"
+    },
+    {
+      "nome": "Nome do seu projeto",
+      "descricao": "Descrição breve do seu projeto",
+      "link": "https://fros.dev"
+    },
+    {
+      "nome": "Nome do seu projeto",
+      "descricao": "Descrição breve do seu projeto",
+      "link": "https://fros.dev"
+    },
+    {
+      "nome": "Nome do seu projeto",
+      "descricao": "Descrição breve do seu projeto",
+      "link": "https://fros.dev"
+    }
+  ],
+  "contatos": [
+    {
+      "nome": "Email",
+      "link": "",
+      "descricao": "seu@email.com"
+    },
+    {
+      "nome": "Github",
+      "link": "https://github.com/ericviana",
+      "descricao": "github.com/seugithub"
+    },
+    {
+      "nome": "Twitter",
+      "link": "https://github.com/ericviana",
+      "descricao": "twitter.com/seutwitter"
+    }
+  ]
+}

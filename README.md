@@ -32,8 +32,8 @@ Para começar a usar este template de portfólio, siga estes passos simples:
 
 ## 🎉 Contribuição
 
-Valorizamos seu feedback e damos as boas-vindas às suas contribuições para tornar este template ainda melhor. Se encontrar algum problema ou tiver sugestões de melhorias, abra uma issue ou envie um pull request no repositório do GitHub. Juntos, podemos criar algo verdadeiramente notável! 🤝
+Valorizo seu feedback e dou boas-vindas às suas contribuições para tornar este template ainda melhor. Se encontrar algum problema ou tiver sugestões de melhorias, abra uma issue ou envie um pull request no repositório do GitHub. Juntos, podemos criar algo verdadeiramente notável! 🤝
 
 ## 🌈 Proposito
 
-Acreditamos que este template de portfólio elevará sua presença profissional e o ajudará a se destacar da multidão. Não perca esta oportunidade de impressionar potenciais empregadores, clientes e colegas com um portfólio de primeira linha! 🚀
+Acredito que este template de portfólio elevará sua presença profissional e o ajudará a se destacar da multidão. Não perca esta oportunidade de impressionar potenciais empregadores, clientes e colegas com um portfólio de primeira linha!
