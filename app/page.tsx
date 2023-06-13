@@ -2,6 +2,7 @@ import Contato from '@/components/Contato';
 import Cabecalho from '@/components/Cabecalho';
 import Sobre from '@/components/Sobre';
 import Projetos from '@/components/Projetos';
+import Footer from '@/components/Footer';
 
 export const metadata = {
   title: 'Foolan D\'tal',
@@ -21,6 +22,7 @@ export default function Home() {
         <Projetos />
         <Contato />
         <hr className='border-gray-200' />
+        <Footer />
       </main>
     </div>
   );
