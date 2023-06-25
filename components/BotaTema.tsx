@@ -2,7 +2,7 @@ import { MoonIcon } from "@/assets/MoonIcon";
 import { SunIcon } from "@/assets/SunIcon";
 import { Dispatch, SetStateAction, useState } from "react";
 
-type Temas = 'dark' | 'light';
+export type Temas = 'dark' | 'light';
 
 type BotaoTemaProps = {
   temaHooks: [Temas, Dispatch<SetStateAction<Temas>>];

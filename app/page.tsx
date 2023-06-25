@@ -4,8 +4,8 @@ import Cabecalho from '@/components/Cabecalho';
 import Sobre from '@/components/Sobre';
 import Projetos from '@/components/Projetos';
 import Footer from '@/components/Footer';
-import { BotaoTema } from '@/components/BotaTema';
-import { useMemo, useState } from 'react';
+import { BotaoTema, Temas } from '@/components/BotaTema';
+import { useEffect, useState } from 'react';
 
 export const metadata = {
   title: 'Foolan D\'tal',
@@ -16,10 +16,12 @@ export const metadata = {
 }
 
 export default function Home() {
-  const temaDoNavegador = useMemo(() =>
-    window.matchMedia("(prefers-color-scheme: dark)").matches ? 'dark' : 'light'
-  , []);
-  const [tema, setTema] = useState(localStorage.tema || temaDoNavegador);
+  const [tema, setTema] = useState<Temas>('light');
+
+  useEffect(() => {
+    const temaDoNavegador = window?.matchMedia("(prefers-color-scheme: dark)").matches ? 'dark' : 'light';
+    setTema(localStorage?.tema || temaDoNavegador);
+  }, [])
 
   return (
     <div className={tema}>
