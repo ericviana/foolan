@@ -21,15 +21,15 @@ export default function Home() {
   return (
     <div className={tema}>
       <BotaoTema temaHooks={[tema, setTema]} />
-      <div className='dark:bg-blue-400 min-h-screen'>
+      <div className='dark:bg-dark-gray min-h-screen transition-all'>
         <div className='max-w-xl mx-auto pt-10 p-6'>
           <main>
             <Cabecalho />
-            <hr className='border-gray-200' />
+            <hr className='border-gray-200 dark:border-gray-600' />
             <Sobre />
             <Projetos />
             <Contato />
-            <hr className='border-gray-200' />
+            <hr className='border-gray-200 dark:border-gray-600' />
             <Footer />
           </main>
         </div>

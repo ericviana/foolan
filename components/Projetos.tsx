@@ -4,7 +4,7 @@ import Item from './Item';
 export default function Projects() {
   return (
     <div className='my-12'>
-      <h2 className='mb-4'>Projetos</h2>
+      <h2 className='mb-4 dark:text-white'>Projetos</h2>
       {data.projetos.map((projeto) => (
         <Item
           key={projeto.nome}
