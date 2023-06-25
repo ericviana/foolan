@@ -1,3 +1,5 @@
+import { MoonIcon } from "@/assets/MoonIcon";
+import { SunIcon } from "@/assets/SunIcon";
 import { Dispatch, SetStateAction, useState } from "react";
 
 type Temas = 'dark' | 'light';
@@ -19,9 +21,15 @@ export const BotaoTema = (props: BotaoTemaProps) => {
     <button
       aria-label={`Troca tema do site para ${tema === "dark" ? "escuro" : "claro"}`}
       onClick={alternarTema}
-      className="fixed"
+      className="fixed top-5 right-5"
     >
-      Alternar tema
+      {
+        tema === "dark" ? (
+          <SunIcon size={2} color="white" />
+        ) : (
+          <MoonIcon size={2} color="dark-gray" />
+        )
+      }
     </button>  
   );
 };
