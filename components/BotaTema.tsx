@@ -21,7 +21,7 @@ export const BotaoTema = (props: BotaoTemaProps) => {
     <button
       aria-label={`Troca tema do site para ${tema === "dark" ? "escuro" : "claro"}`}
       onClick={alternarTema}
-      className="fixed top-5 right-5"
+      className="fixed top-5 right-1/2 translate-x-1/2 sm:translate-x-0 sm:right-5"
     >
       {
         tema === "dark" ? (
