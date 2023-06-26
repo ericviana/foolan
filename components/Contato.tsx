@@ -10,13 +10,13 @@ interface ContatoProps {
 export default function Contact() {
   return (
     <div className='my-12'>
-      <h2 className='mb-4'>Contato</h2>
+      <h2 className='mb-4 dark:text-white'>Contato</h2>
       {data.contatos.map((contato) => (
         <Link
           key={contato.nome}
           href={contato.link}
           target='_blank'
-          className='flex justify-between text-sm rounded-lg border-transparent border hover:border-gray-200 hover:bg-opacity-20 hover:bg-gray-50 py-2 px-2 -mx-2'
+          className='flex justify-between text-sm rounded-lg border-transparent border hover:border-gray-200 hover:bg-opacity-20 hover:bg-gray-50 py-2 px-2 -mx-2 dark:text-gray-400'
         >
           {contato.nome}
           <span className='text-gray-400 hover:underline'>

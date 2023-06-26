@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className='flex items-center gap-2 mt-4'>
+    <div className='flex items-center gap-2 mt-4 dark:text-white'>
       <Link href={'https://github.com/ericviana/foolan'} className='text-xs hover:underline'>Deixe uma estrela no Github</Link>
       <div className='relative flex h-3 w-3'>
         <svg
