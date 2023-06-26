@@ -1,11 +1,9 @@
-'use client'
-import Contato from '@/components/Contato';
+import { TemaWrapper } from '@/components/Tema/TemaWrapper';
 import Cabecalho from '@/components/Cabecalho';
-import Sobre from '@/components/Sobre';
-import Projetos from '@/components/Projetos';
+import Contato from '@/components/Contato';
 import Footer from '@/components/Footer';
-import { BotaoTema, Temas } from '@/components/BotaTema';
-import { useEffect, useState } from 'react';
+import Projetos from '@/components/Projetos';
+import Sobre from '@/components/Sobre';
 
 export const metadata = {
   title: 'Foolan D\'tal',
@@ -16,16 +14,8 @@ export const metadata = {
 }
 
 export default function Home() {
-  const [tema, setTema] = useState<Temas>('light');
-
-  useEffect(() => {
-    const temaDoNavegador = window?.matchMedia("(prefers-color-scheme: dark)").matches ? 'dark' : 'light';
-    setTema(localStorage?.tema || temaDoNavegador);
-  }, [])
-
   return (
-    <div className={tema}>
-      <BotaoTema temaHooks={[tema, setTema]} />
+    <TemaWrapper>
       <div className='dark:bg-dark-gray min-h-screen transition-all'>
         <div className='max-w-xl mx-auto pt-16 p-6'>
           <main>
@@ -39,6 +29,6 @@ export default function Home() {
           </main>
         </div>
       </div>
-    </div>
-  );
+    </TemaWrapper>
+  )
 }
